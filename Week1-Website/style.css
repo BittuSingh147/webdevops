@@ -1,0 +1,67 @@
+body {
+  background-color: #0e0e0e;
+}
+
+.banner {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.topbar {
+  padding: 16px 200px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.top-link {
+  color: grey;
+  font-size: 22px;
+  transition: color 0.3s ease; 
+}
+
+.top-link:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.adv-banner{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+}
+.Landing_page{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  margin: 0 auto;
+}
+ .leftsidediv{
+  color: white;
+  font-size: 34px;
+  font-weight: 200;
+ }
+
+ #rounded{
+  border-radius: 25px;
+  background-color: grey;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 270px;
+ }
+
+ .btn{
+  border-radius: 5px;
+  padding: 20px;
+  background-color:#0078d4;
+  text-align: center;
+ }
+ .lower-banner{
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+
+ }
