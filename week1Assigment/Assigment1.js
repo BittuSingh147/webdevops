@@ -20,3 +20,11 @@ function age(voteAge) {
 
 }
 console.log(age(21));
+
+
+let users = ["Rahul", "Satyam", "Vinod", "Pritam", "Khanna"];
+for (let index = 0; index < users.length; index++) {
+  console.log(users[index]);
+  ;
+
+}
