@@ -36,3 +36,4 @@ let greeting = {
 
 // Call the function with the user object and log the greeting
 console.log(greet(greeting));
+
