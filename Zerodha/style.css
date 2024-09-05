@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+nav span img {
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  
+}
+
+nav ul li:hover {
+  color: #1a73e8;
+}
+
+nav ul li svg {
+  width: 24px;
+  height: 24px;
+  fill: #333;
+  cursor: pointer;
+}
+.content {
+  text-align: center;
+  padding: 50px;
+}
+
+.content img {
+  margin-bottom: 60px;
+    max-height: 45vh;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signup-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #1a73e8;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  background-color: #165ac0;
+}
+
+.secondpage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.secondpage {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.secondpage h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.secondpage h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.secondpage p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.secondpageimg {
+  flex: 1;
+  text-align: right;
+}
+
+.secondpageimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
